@@ -1,0 +1,31 @@
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App {
+  height: 100vh;
+  width: 100vw;
+}
+
+.cellcCnt{
+  flex-direction: row;
+}
+
+.cell{
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.cell input{
+  font-size: large;
+  width: 30px;
+  border: none;
+  background-color: none;
+  cursor: text;
+}
+.middle{
+  height: 150px;
+  width: 5px;
+}
