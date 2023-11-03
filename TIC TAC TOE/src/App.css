@@ -1,0 +1,26 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.board {
+  flex-direction: column;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  user-select: none;
+}
+
+.cell:hover {
+  background-color: lightgrey;
+}
